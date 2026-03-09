@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', helvetica, sans-serif;
+    background-image: url("logoJ2.jpg");
+    background-size: cover;
+    background-position: center;
+
+    color: #000000;
+    line-height: 1.6;
+}
+
+form h2{
+    color: #fcfcfe;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+form{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: url("NDV.jpg");
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: #2600fa;
+    font-size: 25px;
+}
+form input{
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button{
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #1404f8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+form button:hover{
+    background-color: #0d03c1;
+}
