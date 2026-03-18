@@ -8,12 +8,12 @@
         background-size: cover;
         background-position: center;
         color: #000000;
-        line-height: 1.6;
+        line-height: 1;
 
     }
 
     .section{
-        width: 100%;
+        width: 50%;
         display: flex;
         justify-content: space-around;
     }
@@ -29,33 +29,33 @@
     }
 
     .logo img{
-        width: 5px;
-        height: 5px;
+        width: 2px;
+        height: 2px;
         float: left;
     }
 
     .contenaire img{
-        width: 5px;
-        height: 5px;
+        width: 2px;
+        height: 2px;
         float: right;
     }
 
     .logos img{
-        width: 5px;
-        height: 5px;
+        width: 2px;
+        height: 2px;
         float: left;
     }
 
     .contenaires img{
-        width: 5px;
-        height: 5px;
+        width: 2px;
+        height: 2px;
         float: right;
     }
 
 
     form{
-        width: 90%;
-        padding: 90px;
+        width: 80%;
+        padding: 100px;
     }
     form h2{
         font-size: 8px;
@@ -65,7 +65,7 @@
         font-size: 30px;
     }
     form input{
-        width: 300%;
+        width: 200%;
         padding: 8px;
         font-size: 12px;
     }
